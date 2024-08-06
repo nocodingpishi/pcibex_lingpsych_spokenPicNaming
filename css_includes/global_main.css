@@ -1,0 +1,112 @@
+
+
+body {
+    color: black;
+    background-color: white;
+    margin-left: 0;
+    font-family: 'Helvetica' !important;
+}
+.lindent { margin-left: 5em; }
+.sending-results {
+    font-weight: bold;
+    font-size: medium;
+}
+div.bar-container {
+    width: 500px;
+    border: 1px solid;
+    border-color: #9ea4b1;
+    background-color: white;
+    margin-top: 2rem;
+}
+div.bar {
+    background-color: blue;
+}
+p.progress-text {
+    padding-top: 0.5em;
+    margin-top: 0;
+    margin-bottom: 2em;
+    font-style: italic;
+    font-size: small;
+}
+p.practice-box {
+    color: blue;
+    height: 1.5em;
+    padding-bottom: 1em;
+    font-size: small;
+    text-align: center;
+}
+span.retry {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+span.retry:hover {
+    text-decoration: underline;
+}
+span.retry:visited {
+    color: blue;
+}
+
+/* CUSTOM */
+
+#InformationExperiment {
+    border: solid grey 1px;
+    padding: 40px;
+    text-align: justify;
+    margin: 40px 0;
+}
+
+#InformationExperiment p:first-of-type {
+    background-color: rgb(125, 125, 225);
+    text-align: center;
+    margin: -40px;
+    margin-bottom: 40px;
+    padding: 10px;
+    color: white;
+}
+
+.PennController-welcome input[type="checkbox"]{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.recording-label {
+    display: inline-block;
+    padding: 6px 8px !important;
+    border-radius: 3px;
+    
+}
+
+.PennController-MediaRecorder-ui audio {
+    opacity: 0.2;
+    transition: opacity 1s;
+}
+
+.PennController-MediaRecorder-ui button {
+    margin: 10px;
+    width: 200px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+}
+
+.PennController-MediaRecorder-ui audio.ready {
+    opacity: 1;
+}
+
+.PennController-Image-container img {
+    width: auto;
+    height: 100%;
+}
+
+.input_error.custom {
+    position: absolute;
+    left: 0;
+    top: 85%;
+    background-color: red;
+    padding:2px 4px;
+    color: white !important;
+    font-size: 14px !important;
+}
